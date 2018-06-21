@@ -1,4 +1,4 @@
-properties([parameters([choice(choices: ['master', 'dev-1', 'dev-2'], description: 'Choose your branch', name: 'Branch'), string(defaultValue: , description: 'please choose your URL', name: 'URL', trim: true)])])
+properties([parameters([choice(choices: ['master', 'dev-1', 'dev-2'], description: 'Choose your branch', name: 'Branch'), string(defaultValue: '', description: 'please choose your URL', name: 'URL', trim: true)])])
 
  
 
